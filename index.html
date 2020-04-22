@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/ac_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/spinner.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script
+      src="https://kit.fontawesome.com/5c1532dcf4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Assassin's BrotherHood | Secret Home</title>
+  </head>
+  <body>
+    <div id="splash">
+      <img src="./img/ac_loader.gif" alt="" class="logo">
+    </div>
+    <div id="spinny">
+      <nav class="navbar">
+        <span class="open-slider">
+          <a href="#" onclick="openSideMenu()">
+            <svg width="30" height="30">
+              <path d="M0,8 30,8" stroke="#D4AF8C" stroke-width="5" />
+              <path d="M0,17 30,17" stroke="#D4AF8C" stroke-width="5" />
+              <path d="M0,26 30,26" stroke="#D4AF8C" stroke-width="5" />
+            </svg>
+          </a>
+        </span>
+        <ul class="navbar-nav">
+          <li><a href="#mainy">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#abouty">About</a></li>
+          <li><a href="#contacty">Contact</a></li>
+        </ul>
+        <a href="index.html" id="ac-logo"
+          ><img src="./img/ac_logo.png" alt="logo"
+        /></a>
+      </nav>
+      <section id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <a href="#mainy">Home</a>
+        <a href="#services">Services</a>
+        <a href="#abouty">About</a>
+        <a href="#contacty">Contact</a>
+      </section>
+      <section class="main" id="mainy">
+        <section class="banner">
+          <img
+            src="./img/assassins_creed_logo.png"
+            alt="Assassin's Creed"
+            class="logo"
+          />
+          <p class="title">
+            Welcome to the <span class="brother">BrotherHood</span>
+          </p>
+          <p class="desc">
+            Nothing is <span class="truth">True</span>, Everything is
+            <span class="permit">Permitted</span>.
+          </p>
+        </section>
+      </section>
+      <section class="hideout-services bg-dark" id="services">
+        <section class="container grid-3 center">
+          <article>
+            <i class="fab fa-youtube fa-3x"></i>
+            <h3>YouTube</h3>
+            <p>
+              Go through our Youtube Channel to get those Basic Assassin Skills
+            </p>
+          </article>
+          <article>
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <h3>Classroom</h3>
+            <p>
+              Learn from our Great Master Assassins to complete your Missions
+            </p>
+          </article>
+          <article>
+            <i class="fas fa-briefcase fa-3x"></i>
+            <h3>Placement</h3>
+            <p>
+              100% Guaranteed Overseas Missions to our International Hideouts
+            </p>
+          </article>
+        </section>
+      </section>
+      <section class="about-us bg-light" id="abouty">
+        <section class="container grid-2">
+          <i class="fas fa-jedi fa-10x center"></i>
+          <article>
+            <h2>About BrotherHood</h2>
+            <p>
+              We stay in the dark to serve the light. We are the Assassin's
+              Brotherhood, with an aim to set free the world out of the Templar's
+              rule. With the latest Technology and Skills we can defeat those
+              Templars once and for all. So, take the Leap of Faith and join us on
+              our Adventure.
+            </p>
+          </article>
+        </section>
+      </section>
+      <section class="master-assassins bg-dark" id="masters">
+        <section class="container grid-3 center">
+          <article>
+            <img src="./img/sponsors/ps4.png" alt="PS4">
+          </article>
+          <article>
+            <img src="./img/sponsors/ubisoft.png" alt="Ubisoft">
+          </article>
+          <article>
+            <img src="./img/sponsors/xboxone.png" alt="XBox1">
+          </article>
+        </section>
+      </section>
+      <section class="contact-assassins bg-light" id="contacty">
+        <section class="container">
+          <h3 class="contact-title">Contact the BrotherHood</h3>
+          <p class="contact-desc">Join the BrotherHood & Fight for a cause.</p>
+          <form id="assassinsForm">
+            <p>
+              <label for="name">Enter Name</label>
+              <input type="text" name="name" id="name" placeholder="Full Name" />
+            </p>
+            <p>
+              <label for="email">Enter Email</label>
+              <input type="email" name="email" id="email" placeholder="E-Mail Address" required />
+            </p>
+            <p class="full-widty">
+              <label for="message">Reason for Joining us</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Give your thoughts about Freedom!" required></textarea>
+            </p>
+            <p class="full-widty">
+              <input type="submit" value="Submit" />
+            </p>
+            <article class="alert full-widty">Your message has been sent!</art>
+          </form>
+        </section>
+      </section>
+      <footer class="footy bg-dark">
+        <ul class="footer-icon">
+          <li>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2020 Assassin's BrotherHood</p>
+      </footer>
+    </div>
+    <script>
+    document.getElementById("spinny").classList.add("pacey");
+    document.querySelector("body").classList.add("spinner-1");
+
+    setTimeout(() =>{
+      document.querySelector("body").classList.remove("spinner-1");
+      document.getElementById("spinny").classList.remove("pacey");
+    }, 2000);
+    </script>
+    <script>
+      setTimeout(() =>{
+        document.getElementById('splash').classList.add('fade');
+      }, 2000);
+    </script>
+    <script src="./js/blur.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
