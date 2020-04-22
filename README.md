@@ -3,4 +3,4 @@ An Assassin's Creed recruitment page designed & developed using Semantic HTML5, 
 
 A Firebase Contact form for the Recruitment.
 
-A splash screen with an Assassin's Creed logo.
+A Loading Spinner on the start of reloading the screen.

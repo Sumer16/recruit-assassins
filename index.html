@@ -6,16 +6,10 @@
     <link rel="shortcut icon" href="./img/ac_logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/spinner.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script
-      src="https://kit.fontawesome.com/5c1532dcf4.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/5c1532dcf4.js" crossorigin="anonymous"></script>
     <title>Assassin's BrotherHood | Secret Home</title>
   </head>
   <body>
-    <div id="splash">
-      <img src="./img/ac_loader.gif" alt="" class="logo">
-    </div>
     <div id="spinny">
       <nav class="navbar">
         <span class="open-slider">
@@ -152,21 +146,7 @@
         <p>Copyright &copy; 2020 Assassin's BrotherHood</p>
       </footer>
     </div>
-    <script>
-    document.getElementById("spinny").classList.add("pacey");
-    document.querySelector("body").classList.add("spinner-1");
-
-    setTimeout(() =>{
-      document.querySelector("body").classList.remove("spinner-1");
-      document.getElementById("spinny").classList.remove("pacey");
-    }, 2000);
-    </script>
-    <script>
-      setTimeout(() =>{
-        document.getElementById('splash').classList.add('fade');
-      }, 2000);
-    </script>
-    <script src="./js/blur.js"></script>
+    <script src="./js/spinner.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
     <script src="./js/main.js"></script>
