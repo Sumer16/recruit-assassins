@@ -12,4 +12,4 @@
 
 [Recruit Assassins Here](https://sumer16.github.io/recruit-assassins/)
 
-> Nothing is **True**, Everything is **Permitted*.
+> Nothing is **True**, Everything is **Permitted**.
