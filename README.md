@@ -1,6 +1,15 @@
-# recruit-assassins
-An Assassin's Creed recruitment page designed & developed using Semantic HTML5, CSS3, Media Queries, GridCSS, etc
+# Recruit Assassins
 
-A Firebase Contact form for the Recruitment.
+### *An Assassin's Creed recruitment page designed & developed using* 
+* Semantic HTML5
+* CSS3 
+* Media Queries 
+* GridCSS
+* Resonsive Web Design
 
-A Loading Spinner on the start of reloading the screen.
+#### Added a Firebase Contact form for possible recruitments.
+#### A Loading Spinner on the start of reloading the screen.
+
+[Recruit Assassins](https://sumer16.github.io/recruit-assassins/)
+
+> Nothing is **True**, Everything is **Permitted*.
