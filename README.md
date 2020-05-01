@@ -10,6 +10,6 @@
 #### Added a Firebase Contact form for possible recruitments.
 #### A Loading Spinner on the start of reloading the screen.
 
-[Recruit Assassins](https://sumer16.github.io/recruit-assassins/)
+[Recruit Assassins Here](https://sumer16.github.io/recruit-assassins/)
 
 > Nothing is **True**, Everything is **Permitted*.
